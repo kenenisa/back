@@ -72,7 +72,7 @@ app.post('/search', async (req, res) => {
     if (value != '') {
       users = JSON.parse(JSON.stringify(users)).filter((val) => {
         for (const v in val) {
-          if (val[v].toString().toLowerCase().includes(value)) {
+          if (val[v].toString().toLowerCase().includes(value.toLowerCase())) {
             return true
           }
         }
