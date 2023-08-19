@@ -1,0 +1,14 @@
+{
+  "development": {
+    "database": "employee",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "database": "employee",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "database": "employee",
+    "dialect": "sqlite"
+  }
+}
