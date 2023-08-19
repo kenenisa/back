@@ -78,7 +78,6 @@ app.post('/search', async (req, res) => {
         }
         return false
       })
-      console.log(users);
     }
     res.send(JSON.stringify(users));
   } catch (err) {
